@@ -1,0 +1,2 @@
+# python test_offline.py --model ./runs/best.pth --label_name ok shaojiao --dataset_path /workspace/volume/sz-008-chengjiankai/SDK/LED/11-05/ok --quantized_mode 1 --core_version MLU270 --core_number 16 --output_path ./output --device mlu
+python test_offline.py --model /workspace/outputs/best.pth --label_name 正常 少胶 --dataset_path /workspace/volume/sz-008-chengjiankai/SDK/LED/11-05/ok --quantized_mode 1 --core_version MLU270 --core_number 16 --output_path /workspace/outputs --device mlu

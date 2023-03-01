@@ -1,0 +1,1 @@
+python inference_off.py  --input_img /workspace/volume/guojun/Train/Classification/dataset/catsdogs/test/Cat/11205.jpg --off_model /workspace/volume/guojun/Train/Classification/offline/270CATDOG_classification.cambricon --label_name Cat Dog
